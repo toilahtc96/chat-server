@@ -13,7 +13,7 @@ import lombok.ToString;
 public class ChatUser {
 
     @EzyId
-    private int id;
+    private Long id;
 
     private String username;
     private String password;
